@@ -1,39 +1,43 @@
 @media only screen and (max-width: 787px) {
   .header {
+    position: relative;
     width: 100%;
     background-color: #593624;
+
     color: #fff;
-    height: 160px;
-    top: 0;
+    height: 60px;
     z-index: 9900;
-    float: none;
-  }
-  .head_menu {
-    text-align: center;
-    display: block;
-    margin-top: 0px;
   }
 
-  .head_menu ul li {
+  nav {
+    visibility: hidden;
+  }
+  /* .head_menu {
+    text-align: center;
     display: block;
+  }
+  .head_menu ul {
+    display: block;
+    margin: 0 auto;
+  }
+  .head_menu ul li {
+    margin: 6px 0 auto;
   }
   .head_menu ul li a {
     color: #fff;
-    padding: 20px 10px;
+    padding: 0 30px 15px 0;
     text-transform: uppercase;
     font-weight: 500;
     letter-spacing: 0.1em;
-    margin-left: 10px;
     font-size: 14px;
   }
   .head_menu ul li a:hover {
     text-decoration: underline double;
     text-underline-offset: 4px;
     color: #f2cdb6;
-  }
+  } */
 
   .header img {
-    text-align: center;
-    margin-top: 10px;
+    margin: 10px auto 0 auto;
   }
 }
