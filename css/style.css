@@ -169,7 +169,7 @@ img {
   color: #fff;
 }
 .cardapio-lista h4 {
-  padding: 20px;
+  padding: 20px !important;
   font-size: 18px;
   line-height: 25px;
   color: #fff;
