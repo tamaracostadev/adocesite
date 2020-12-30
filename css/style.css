@@ -95,8 +95,9 @@ p {
   font-size: 14px;
 }
 .head_menu ul li a:hover {
-  text-decoration: underline double;
-  text-underline-offset: 4px;
+  text-decoration: none;
+  border-bottom: 3px solid currentColor; 
+  background-color: #7A533F;  
   color: #f2cdb6;
 }
 
@@ -322,4 +323,67 @@ textarea {
 .contato img {
   display: inline;
   margin: 5px 10px 0 0;
+}
+
+/* Javascript */
+
+[data-slide] {
+  position: relative;
+}
+[data-slide] > * {
+  position: absolute;
+  top: 0px;
+  opacity: 0;
+}
+[data-slide] > .active {
+  position: relative;
+  opacity: 1;
+  transition: opacity 500ms;
+  z-index: 1;
+}
+
+[data-slide-nav] {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+}
+[data-slide-nav] > button {
+  display: inline-block;
+  width: 12px;
+  margin: 10px 4px;
+  height: 12px;
+  border: none;
+  padding: 0px;
+  border-radius: 6px;
+  background: #957a69;
+  text-indent: -100px;
+  overflow: hidden;
+  outline: none;
+}
+[data-slide-nav] > button.active {
+  background: #593624;
+}
+
+[data-anime] {
+  opacity: 0;
+}
+
+.fadeInDown {
+  transform: translate3d(0, -20px, 0);
+}
+.fadeInUp {
+  transform: translate3d(0, 20px, 0);
+}
+.fadeInRight {
+  transform: translate3d(20px, 0, 0);
+}
+.fadeInLeft {
+  transform: translate3d(-20px, 0, 0);
+}
+
+.anime {
+  opacity: 1;
+  transform: none;
+  transition: transform 0.8s, opacity 0.8s;
 }

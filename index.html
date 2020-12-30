@@ -4,19 +4,28 @@
 <head>
   <meta charset="utf-8">
   <title>Adoce Seu Dia - Por dias mais doces</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/grid.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/responsivo.css">
+  <meta name="description" content="Faça já o seu pedido dos melhores doces de Santo André e adoce seu dia.">
+  <meta property="og:title" content="Adoce Seu Dia - Por dias mais doces" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.adoceseudia.com.br" />
+  <meta property="og:image" content="https://adoceseudia.com.br/img/jpg/bg.jpg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="shortcut icon" href="icon.ico">
 
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/grid.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/responsivo.css">
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 
-<body id="home">
+<body>
   <header class="header">
     <div class="container">
       <a href="#home" class="logo grid-2">
-        <img src="img/svg/logo.svg" alt="Adoce seu dia">
+        <img src="./img/svg/logo.svg" alt="Adoce seu dia">
       </a>
       <nav class="grid-14 head_menu">
         <ul>
@@ -32,59 +41,63 @@
 
   <section id="home" class="introducao">
     <div class="container">
-      <h1>Adoce Seu Dia</h1>
-      <blockquote class="quote-externo">
+      <h1 data-anime="300" class="fadeInDown">Adoce Seu Dia</h1>
+      <blockquote data-anime="500" class="quote-externo fadeInDown">
         <p>"Quando o doce é feito com amor, a gente sente na primeira mordida."</p>
         <cite>Marianna Moreno</cite>
       </blockquote>
-      <a href="#pedido" class="btn-claro">Peça Já</a>
+      <a href="#pedido" data-anime="700" class="btn-claro fadeInDown">Peça Já</a>
     </div>
   </section>
 
-  <section id="cardapio" class="container cardapio">
+  <section data-anime="900" id="cardapio" class="container fadeInDown">
     <h2 class="subtitulo-dark">Cardápio</h2>
-    <ul class="cardapio-lista">
+    <div class="cardapio-lista">
       <div class="grid-8">
-        <li>
-          <img src="img/jpg/bolo.jpg" alt="Bolo bombom">
-          <h3>Bolo Bombom</h3>
-          <h4>Uma fatia de bolo, um delicioso recheio, com uma casquinha de chocolate. <br>Peso aproximado 120g - R$9,50</h4>
-        </li>
-        <li>
-          <img src="img/jpg/trufa.jpg" alt="Trufas Caseiras">
-          <h3>Trufas Caseiras</h3>
-          <h4>Nossas maravilhosas trufas caseiras, com nossos recheios tradicionais. <br> Peso aproximado 45g - R$4,90</h4>
-        </li>
-        <li>
-          <img src="img/jpg/brig.jpg" alt="Brigadeiros">
-          <h3>Brigadeiros</h3>
-          <h4>Brigadeiros super chocolatudos, feitos com cacau 100% para sua festa ou para presentear <br>
-            Sob encomenda
-          </h4>
-        </li>
+        <ul>
+          <li>
+            <img src="./img/jpg/bolo.jpg" alt="Bolo bombom">
+            <h3>Bolo Bombom</h3>
+            <h4>Uma fatia de bolo, um delicioso recheio, com uma casquinha de chocolate. <br>Peso aproximado 120g - R$9,50</h4>
+          </li>
+          <li>
+            <img src="./img/jpg/trufa.jpg" alt="Trufas Caseiras">
+            <h3>Trufas Caseiras</h3>
+            <h4>Nossas maravilhosas trufas caseiras, com nossos recheios tradicionais. <br> Peso aproximado 45g - R$4,90</h4>
+          </li>
+          <li>
+            <img src="./img/jpg/brig.jpg" alt="Brigadeiros">
+            <h3>Brigadeiros</h3>
+            <h4>Brigadeiros super chocolatudos, feitos com cacau 100% para sua festa ou para presentear <br>
+              Sob encomenda
+            </h4>
+          </li>
+        </ul>
       </div>
       <div class="grid-8">
-        <li>
-          <img src="img/jpg/cone.jpg" alt="Cone Trufado">
-          <h3>Cone Trufado</h3>
-          <h4>Nossos cones trufados, banhados no chocolate por dentro e por fora, com nossos recheios mais tradicionais. Por apenas R$8,50
-          </h4>
-        </li>
-        <li>
-          <img src="img/jpg/palha.jpg" alt="Palha Italiana">
-          <h3>Palha Italiana</h3>
-          <h4>Ah, o que dizer das palhas italianas? Vem em pedacinhos pra você saborear sozinho ou com a galera. Peso aproximado 100g - R$8,50
-          </h4>
-        </li>
-        <li>
-          <img src="img/png/presente.png" alt="Para Presentear">
-          <h3>Para Presentear</h3>
-          <h4>Também temos diversas opções de caixas para presentear. Clique e veja os preços e modelos. <br>
-            Sob encomenda
-          </h4>
-        </li>
+        <ul>
+          <li>
+            <img src="./img/jpg/cone.jpg" alt="Cone Trufado">
+            <h3>Cone Trufado</h3>
+            <h4>Nossos cones trufados, banhados no chocolate por dentro e por fora, com nossos recheios mais tradicionais. Por apenas R$8,50
+            </h4>
+          </li>
+          <li>
+            <img src="./img/jpg/palha.jpg" alt="Palha Italiana">
+            <h3>Palha Italiana</h3>
+            <h4>Ah, o que dizer das palhas italianas? Vem em pedacinhos pra você saborear sozinho ou com a galera. Peso aproximado 100g - R$8,50
+            </h4>
+          </li>
+          <li>
+            <img src="./img/png/presente.png" alt="Para Presentear">
+            <h3>Para Presentear</h3>
+            <h4>Também temos diversas opções de caixas para presentear. Clique e veja os preços e modelos. <br>
+              Sob encomenda
+            </h4>
+          </li>
+        </ul>
       </div>
-    </ul>
+    </div>
     <div class="call-pedido">
       <h4>Clique aqui para fazer o seu pedido.</h4>
       <a href="#pedido" class="btn-dark">Peça Já</a>
@@ -94,12 +107,39 @@
   <section id="feedback" class="dark opiniao">
     <div class="container">
       <h2 class="subtitulo-claro">Opinião dos nossos clientes</h2>
-      <ul>
-        <li class="grid-4"><img src="img/jpg/op1@2x.jpg"></li>
-        <li class="grid-4"><img src="img/jpg/op2@2x.jpg"></li>
-        <li class="grid-4"><img src="img/jpg/op3@2x.jpg"></li>
-        <li class="grid-4"><img src="img/jpg/op4@2x.jpg"></li>
-      </ul>
+      <div class="grid-1-3">
+        <ul data-slide="feedback1">
+          <li><img src="./img/jpg/op1@2x.jpg"></li>
+          <li><img src="./img/jpg/op2@2x.jpg"></li>
+          <li><img src="./img/jpg/op3@2x.jpg"></li>
+          <li><img src="./img/jpg/op4@2x.jpg"></li>
+          <li><img src="./img/jpg/op2@2x.jpg"></li>
+          <li><img src="./img/jpg/op3@2x.jpg"></li>
+          <li><img src="./img/jpg/op4@2x.jpg"></li>
+        </ul>
+      </div>
+      <div class="grid-1-3">
+        <ul data-slide="feedback2">
+          <li><img src="./img/jpg/op1@2x.jpg"></li>
+          <li><img src="./img/jpg/op2@2x.jpg"></li>
+          <li><img src="./img/jpg/op3@2x.jpg"></li>
+          <li><img src="./img/jpg/op4@2x.jpg"></li>
+          <li><img src="./img/jpg/op2@2x.jpg"></li>
+          <li><img src="./img/jpg/op3@2x.jpg"></li>
+          <li><img src="./img/jpg/op4@2x.jpg"></li>
+        </ul>
+      </div>
+      <div class="grid-1-3">
+        <ul data-slide="feedback3">
+          <li><img src="./img/jpg/op1@2x.jpg"></li>
+          <li><img src="./img/jpg/op2@2x.jpg"></li>
+          <li><img src="./img/jpg/op3@2x.jpg"></li>
+          <li><img src="./img/jpg/op4@2x.jpg"></li>
+          <li><img src="./img/jpg/op2@2x.jpg"></li>
+          <li><img src="./img/jpg/op3@2x.jpg"></li>
+          <li><img src="./img/jpg/op4@2x.jpg"></li>
+        </ul>
+      </div>
       <div class="call-opniao">
         <h4>Clique aqui e faça o seu pedido ou entre em contato para fazer sua encomenda</h4>
         <a href="#pedido" class="btn-claro">Peça Já</a>
@@ -112,19 +152,19 @@
     <ul>
       <li class="grid-1-3">
         <a href="https://www.ifood.com.br/delivery/santo-andre-sp/adoce-seu-dia-parque-das-nacoes//b6e8edaa-cb6d-4e1e-9a93-ebadd56ae915" target="_blank">
-          <img src="img/jpg/ifood.jpg" alt="Ifood">
+          <img src="./img/jpg/ifood.jpg" alt="Ifood">
           <h3>Ifood</h3>
         </a>
       </li>
       <li class="grid-1-3">
         <a href="https://order.ubereats.com/sao-paulo/food-delivery/Adoce%20seu%20Dia/biQWlwzARbaQ-bJ0R0L4hA/?utm_source=web-restaurant-manager" target="_blank">
-          <img src="img/jpg/uber.jpg" alt="Uber Eats">
+          <img src="./img/jpg/uber.jpg" alt="Uber Eats">
           <h3>Uber Eats</h3>
         </a>
       </li>
       <li class="grid-1-3">
         <a href="https://www.rappi.com.br/restaurantes/adoce-seu-dia" target="_blank">
-          <img src="img/jpg/rappi.jpg" alt="Rappi">
+          <img src="./img/jpg/rappi.jpg" alt="Rappi">
           <h3>Rappi</h3>
         </a>
       </li>
@@ -136,7 +176,7 @@
   <section class="dark" id="contato">
     <div class="container">
       <h2 class="subtitulo-claro">Entre em contato</h2>
-      <form id="form-contato" class="form grid-9" method="GET">
+      <form id="form-contato" class="form grid-9" method="POST" action="enviar.php">
         <label for="nome">Nome:</label>
         <input type="text" id="nome">
         <label for="telefone">Telefone:</label>
@@ -153,18 +193,18 @@
 
         <p>- +55 (11)96815-5559</p>
         <p>- contato@adoceseudia.com.br</p>
-        <img src="img/jpg/mapa.jpg" alt="Maps">
+        <img src="./img/jpg/mapa.jpg" alt="Maps">
 
 
         <h3>Redes Sociais</h3>
         <a href="https://www.facebook.com/AdoceSeuDiaDoces" target="_blank">
-          <img class="logo" src="img/svg/facelogo.svg" alt="Facebook">
+          <img class="logo" src="./img/svg/facelogo.svg" alt="Facebook">
         </a>
         <a href="https://www.instagram.com/AdoceSeuDiaDoces" target="_blank">
-          <img class="logo" src="img/svg/instalogo.svg" alt="Instagram">
+          <img class="logo" src="./img/svg/instalogo.svg" alt="Instagram">
         </a>
         <a href="https://wa.me/message/SLHYAFCQIT2WM1">
-          <img class="logo" src="img/svg/wpplogo.svg" alt="Whatsapp">
+          <img class="logo" src="./img/svg/wpplogo.svg" alt="Whatsapp">
         </a>
 
 
@@ -172,13 +212,13 @@
         <h3>Faça Seu Pedido</h3>
 
         <a href="https://www.ifood.com.br/delivery/santo-andre-sp/adoce-seu-dia-parque-das-nacoes//b6e8edaa-cb6d-4e1e-9a93-ebadd56ae915" target="_blank">
-          <img class="logo" src="img/svg/ifoodlogo.svg" alt="Ifood">
+          <img class="logo" src="./img/svg/ifoodlogo.svg" alt="Ifood">
         </a>
         <a href="https://order.ubereats.com/sao-paulo/food-delivery/Adoce%20seu%20Dia/biQWlwzARbaQ-bJ0R0L4hA/?utm_source=web-restaurant-manager" target="_blank">
-          <img class="logo" src="img/svg/uberlogo.svg" alt="Uber">
+          <img class="logo" src="./img/svg/uberlogo.svg" alt="Uber">
         </a>
         <a href="https://www.rappi.com.br/restaurantes/adoce-seu-dia" target="_blank">
-          <img class="logo" src="img/svg/rappilogo.svg" alt="Rappi">
+          <img class="logo" src="./img/svg/rappilogo.svg" alt="Rappi">
         </a>
 
 
@@ -187,14 +227,14 @@
     </div>
     </div>
   </section>
-  <section class="pre-footer">
+  <div class="pre-footer">
     <div class="container">
       <blockquote class="quote-externo">
         <p>"O verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os detalhes da vida cotidiana."</p>
         <cite>William Morris</cite>
       </blockquote>
     </div>
-  </section>
+  </div>
   <footer>
     <div class="container">
       <div class="grid-6">
@@ -209,13 +249,13 @@
       <div class="grid-4">
         <h3>Redes Sociais</h3>
         <a href="https://www.facebook.com/AdoceSeuDiaDoces" target="_blank">
-          <img class="logo" src="img/svg/facelogo.svg" alt="Facebook">
+          <img class="logo" src="./img/svg/facelogo.svg" alt="Facebook">
         </a>
         <a href="https://www.instagram.com/AdoceSeuDiaDoces" target="_blank">
-          <img class="logo" src="img/svg/instalogo.svg" alt="Instagram">
+          <img class="logo" src="./img/svg/instalogo.svg" alt="Instagram">
         </a>
         <a href="https://wa.me/message/SLHYAFCQIT2WM1">
-          <img class="logo" src="img/svg/wpplogo.svg" alt="Whatsapp">
+          <img class="logo" src="./img/svg/wpplogo.svg" alt="Whatsapp">
         </a>
 
       </div>
@@ -224,13 +264,13 @@
         <h3>Faça Seu Pedido</h3>
 
         <a href="https://www.ifood.com.br/delivery/santo-andre-sp/adoce-seu-dia-parque-das-nacoes//b6e8edaa-cb6d-4e1e-9a93-ebadd56ae915" target="_blank">
-          <img class="logo" src="img/svg/ifoodlogo.svg" alt="Ifood">
+          <img class="logo" src="./img/svg/ifoodlogo.svg" alt="Ifood">
         </a>
         <a href="https://order.ubereats.com/sao-paulo/food-delivery/Adoce%20seu%20Dia/biQWlwzARbaQ-bJ0R0L4hA/?utm_source=web-restaurant-manager" target="_blank">
-          <img class="logo" src="img/svg/uberlogo.svg" alt="Uber">
+          <img class="logo" src="./img/svg/uberlogo.svg" alt="Uber">
         </a>
         <a href="https://www.rappi.com.br/restaurantes/adoce-seu-dia" target="_blank">
-          <img class="logo" src="img/svg/rappilogo.svg" alt="Rappi">
+          <img class="logo" src="./img/svg/rappilogo.svg" alt="Rappi">
         </a>
 
       </div>
@@ -241,6 +281,9 @@
     </div>
   </footer>
 
+  <script src="./js/slide.js"></script>
+  <script src="./js/simple-anime.js"></script>
+  <script src="./js/script.js"></script>
 </body>
 
 </html>
