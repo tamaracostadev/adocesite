@@ -2,4 +2,4 @@
 Desenvolvido com html, css e js.
 
 # Preview
-https://tahcosta.github.io/adocesite/
+https://tamaracostadev.github.io/adocesite/
